@@ -1,0 +1,117 @@
+html{
+    height: 100%;
+}
+body{
+    background: rgb(245, 234, 225);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100%;
+
+}
+ h1{
+     text-align: center;
+ }
+
+nav ul{
+    list-style: none;
+    padding: 0;    
+}
+
+nav li{
+    line-height:3rem ;
+   position:relative;
+}
+
+nav li ul li{
+    position: absolute;
+ 
+}
+
+nav a{
+    text-align: center;
+    color: rgb(59, 59, 59);
+    display: block;
+    padding: 0 3rem;
+    text-decoration: none;
+    transition: .5s;
+    margin: 3px 3px;
+}
+
+nav a:hover{
+    background: rgba(189, 210, 252, 0.5);
+}
+nav ul ul ul{
+    display: none;
+}
+
+nav > ul{
+    background:rgb(130, 197, 241);
+    overflow: hidden;
+    display: table;
+    width: 100%;
+}
+
+nav > ul >li{
+    float: left;
+}
+
+
+nav li li{
+    background: #8dc6ec;
+}
+
+.parrafo {
+    margin:20px;
+
+}
+
+.caja{
+    display: table-row;
+    padding: 50px;
+}
+
+.caja:nth-child(1) h2{
+    background: cornflowerblue;
+    text-align: center;
+    
+}
+
+.caja:nth-child(2) h2{
+    background: cornflowerblue;
+    text-align:center;
+    
+}
+
+.caja:nth-child(3) h2{
+    background: cornflowerblue;
+    text-align:center;
+}
+.caja:nth-child(1) p{
+    background: #8dc6ec;
+    text-align: justify;
+
+}
+
+.caja:nth-child(2) p{
+    background :#8dc6ec;
+    text-align: justify;
+    
+}
+
+.caja:nth-child(3) p{
+    background :#8dc6ec;
+    text-align: justify;
+    
+}
+
+
+footer{
+    background:#8dc6ec;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.referencias{
+    background:#8dc6ec;
+    text-align: center;
+    padding: 15px 30px;
+}
